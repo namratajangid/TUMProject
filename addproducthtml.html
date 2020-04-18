@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+    <head class='body'>
+        <title class='body'>Add Product</title>
+        <meta class='body' charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <br><br><br><br><br><br> 
+    <body class='body'>
+        <br><br><br>
+        <br><br><h2 class='body' align="center">Add Product</h2>
+        <hr>
+        <br><br><br><br>
+        <form class='body' action="addproduct.jsp" align="center">
+            ID:<input type="text" name="ID" value="" required/>
+            Product Name:<input type="text" name="NAME" value="" required/>
+            Cost Price:<input type="text" name="COSTPRICE" value="" required/>
+            Profit Percentage:<input type="text" name="PROFITPERCENT" value="" required/>
+            <br><br>
+            <input class="button" type="submit" value="Save"/>
+            <br><br><hr>
+            <br>
+            
+             <form action="products.jsp">
+    <input class="button" type="submit" value="<< Back to 'Products'" />
+</form>
+            
+            <!--a href="products.jsp">Back to 'Products'</a-->
+        </form>
+    </body>
+</html>

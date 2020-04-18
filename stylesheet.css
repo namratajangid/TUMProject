@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 5, 2017, 9:06:45 PM
+    Author     : Sheetal
+*/
+/*Background*/
+body {
+   background-image: url("resources/images/ExSell3.jpg");
+   /* background-color: lightblue;*/
+}
+/*for buttons*/
+.button {
+   background-color: #151B54;
+   color: #ffffff;
+   height:30px;
+   
+  
+ }
+ 
+.button:hover {
+    background-color: #ADD8E6;
+    color: blue;
+ 
+}
+
+/*For Navbar*/
+.topnav {
+    background-color: #151B54;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    height: 18px;
+    display: block;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ADD8E6;
+    color: blue;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
